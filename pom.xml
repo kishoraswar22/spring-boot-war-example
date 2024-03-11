@@ -25,6 +25,18 @@
     <java.version>1.8</java.version>
   </properties>
 
+<distributionManagement>
+  <repository>
+  <id>maven-release</id>
+  <name>maven-release</name>
+  <url>http://13.201.39.237:8081/repository/maven-releases/</url>
+  </repository>
+ 
+   <snapshotRepository>
+    <id>maven-snapshots</id>
+	<url>http://13.201.39.237:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>   
+ </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
