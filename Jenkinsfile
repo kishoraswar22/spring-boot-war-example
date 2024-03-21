@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Code Checkout') {
             steps {
-                  git branch: 'main', changelog: false, poll: false, url: 'https://github.com/kishoraswar22/spring-boot-hello-world.git'         
+                  git branch: 'master', changelog: false, poll: false, url: 'https://github.com/kishoraswar22/spring-boot-war-example.git'         
             }
         }
     stage('Build') {
